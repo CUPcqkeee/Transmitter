@@ -1,0 +1,20 @@
+name: Transmitter
+version: '1.0'
+main: cupcqkeee.me.transmitter.Transmitter
+api-version: '1.19'
+author: CUPcqkeee
+commands:
+  transmitter:
+    description: Выдать предмет "Transmitter"
+    permission: Transmitter.admin
+    usage: /transmitter
+permissions:
+  Transmitter.craft:
+    description: Право на крафт предмета "Transmitter"
+    default: op
+  Transmitter.use:
+    description: Право использовать предмет "Transmitter"
+    default: true
+  Transmitter.admin:
+    description: Право на использование команды /transmitter
+    default: op

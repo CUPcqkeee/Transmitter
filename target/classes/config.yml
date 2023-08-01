@@ -1,0 +1,24 @@
+# Сама рация
+transmitter:
+  display_name: "&aРация" # Есть поддержка #
+  model_data: 1234 # Для текстурки кастомной
+
+# Рецепт крафта
+transmitter_recipe:
+  # Форма рецепта
+  shape:
+    - "III"
+    - "IDI"
+    - "III"
+  # Ключи для ингредиентов в рецепте
+  keys:
+    - "IDI"
+
+# Ингредиенты для рецепта
+ingredients:
+  I:
+    type: IRON_BLOCK
+    amount: 5
+  D:
+    type: OAK_WOOD
+    amount: 4
